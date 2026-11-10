@@ -32,7 +32,7 @@
               printf '%s\n' \
                 'agent-workflow: bootstrap skeleton; no workflow tools or profile enforcement yet.' \
                 'Upstream Haskell Agent revision: ${haskell-agent.rev or "unversioned"}' \
-                'Plan: https://github.com/BeaudanBrown/agent-workflow/issues' \
+                'Plan: https://github.com/BeaudanBrown/agent-workflow/issues/1' \
                 'Explicit raw runtime: nix run .#upstream-agent -- --help' \
                 'This command does not start an agent or modify user configuration.'
             '';

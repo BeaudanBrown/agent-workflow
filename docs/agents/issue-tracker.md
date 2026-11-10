@@ -3,7 +3,9 @@
 GitHub Issues in [BeaudanBrown/agent-workflow](https://github.com/BeaudanBrown/agent-workflow/issues)
 are the only durable task queue. Git history and issue handoffs hold implementation
 evidence. The migration specification in `docs/plan.md` records requirements,
-not mirrored issue state.
+not mirrored issue state. [Epic #1](https://github.com/BeaudanBrown/agent-workflow/issues/1)
+owns the core migration; [#17](https://github.com/BeaudanBrown/agent-workflow/issues/17)
+parks optional work outside its completion graph.
 
 - Use native GitHub sub-issues for epic membership and native dependencies for
   blockers. Body-text lists are navigation, not relationship authority.

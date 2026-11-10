@@ -12,6 +12,24 @@ credits, publish upstream changes, or retire Pi. GitHub Issues hold execution
 state; this document holds design requirements. Dependency-linked leaf issues
 will carry concrete acceptance criteria and evidence.
 
+## Published execution graph
+
+[Epic #1](https://github.com/BeaudanBrown/agent-workflow/issues/1) owns the native
+sub-issue/dependency graph. These links are navigation, not a duplicate tracker:
+
+| Scope | Issues |
+| --- | --- |
+| Bootstrap | [#2](https://github.com/BeaudanBrown/agent-workflow/issues/2) |
+| Stage A: launcher, skills/environment, GitHub tools, project integrations, trial | [#3](https://github.com/BeaudanBrown/agent-workflow/issues/3), [#4](https://github.com/BeaudanBrown/agent-workflow/issues/4), [#5](https://github.com/BeaudanBrown/agent-workflow/issues/5), [#6](https://github.com/BeaudanBrown/agent-workflow/issues/6), [#7](https://github.com/BeaudanBrown/agent-workflow/issues/7) |
+| Stage B: profile contract, fixtures, support decision, enforcement | [#8](https://github.com/BeaudanBrown/agent-workflow/issues/8), [#9](https://github.com/BeaudanBrown/agent-workflow/issues/9), [#10](https://github.com/BeaudanBrown/agent-workflow/issues/10), [#11](https://github.com/BeaudanBrown/agent-workflow/issues/11) |
+| Stage B: reviews, command diagnostics, semantic tools | [#12](https://github.com/BeaudanBrown/agent-workflow/issues/12), [#13](https://github.com/BeaudanBrown/agent-workflow/issues/13), [#14](https://github.com/BeaudanBrown/agent-workflow/issues/14) |
+| Upgrade and adoption gates | [#15](https://github.com/BeaudanBrown/agent-workflow/issues/15), [#16](https://github.com/BeaudanBrown/agent-workflow/issues/16) |
+| Optional work outside the epic | [#17](https://github.com/BeaudanBrown/agent-workflow/issues/17) |
+
+Select work from the current open, unblocked native frontier, not numerical order
+or stale labels. The upstream support/fallback decision is an explicit blocker
+for enforcement; an upstream proposal alone does not establish working support.
+
 ## Non-negotiable constraints
 
 - A separate distribution consumes pinned upstream; no permanent runtime fork

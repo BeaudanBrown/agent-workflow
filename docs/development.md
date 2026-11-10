@@ -55,6 +55,7 @@ policy is created.
 
 ## Initial bootstrap verification
 
-See the bootstrap issue's handoff for the actual commands and results. A
+See [bootstrap issue #2](https://github.com/BeaudanBrown/agent-workflow/issues/2)
+for the actual commands, results and handoff. A
 successful skeleton check is not a runtime smoke check or authorization to
 proceed to deployment.

@@ -55,7 +55,7 @@ a promise of a stable third-party SDK.
 ## Documentation
 
 - [Architecture and ownership](docs/architecture.md)
-- [Migration specification](docs/plan.md)
+- [Migration specification](docs/plan.md) and [GitHub epic #1](https://github.com/BeaudanBrown/agent-workflow/issues/1)
 - [Development and verification](docs/development.md)
 - [Deployment and upgrades](docs/deployment.md)
 - [Terminology](CONTEXT.md)
