@@ -1,0 +1,117 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "haskell-agent": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nix-filter": "nix-filter",
+        "nixpkgs": "nixpkgs",
+        "skylighting": "skylighting"
+      },
+      "locked": {
+        "lastModified": 1793468890,
+        "narHash": "sha256-vMniQnNfUvLHWNNVtH4wo7KOyt+/8qGQfv7xeiwBczE=",
+        "owner": "digitallyinduced",
+        "repo": "haskell-agent",
+        "rev": "907e57d96cd0b327d4aeb0811de0a2f8252df95c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "digitallyinduced",
+        "repo": "haskell-agent",
+        "type": "github"
+      }
+    },
+    "nix-filter": {
+      "locked": {
+        "lastModified": 1757882181,
+        "narHash": "sha256-+cCxYIh2UNalTz364p+QYmWHs0P+6wDhiWR4jDIKQIU=",
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "rev": "59c44d1909c72441144b93cf0f054be7fe764de5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1787111413,
+        "narHash": "sha256-sFosWtq21eHGJRnTc/hvf4M1obRgLEUMNm/IzllkHMA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "afe3d8ac4395617bdcdac9f188ac8717a062e014",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "haskell-agent": "haskell-agent",
+        "nixpkgs": [
+          "haskell-agent",
+          "nixpkgs"
+        ]
+      }
+    },
+    "skylighting": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785853199,
+        "narHash": "sha256-Ii7ky4AYyv89yliYSVMYDznP9yjx6bbHXVLMFHaFw/M=",
+        "owner": "jgm",
+        "repo": "skylighting",
+        "rev": "e432d65743ecef9475816b2cc074d34833837ced",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jgm",
+        "repo": "skylighting",
+        "rev": "e432d65743ecef9475816b2cc074d34833837ced",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
